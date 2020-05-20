@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: dubbo-consumer
+  main:
+    allow-bean-definition-overriding: true # 不设置会与Spring Boot冲突
+dubbo:
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: zookeeper://127.0.0.1:2181 #注册中心地址
+    file: dubbo-registry/dubbo-registry.properties
+demo:
+  service:
+    version: 1.0.0
+server:
+  port: 8888

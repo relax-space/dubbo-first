@@ -1,0 +1,2 @@
+org\example\dubbo\provider\HelloDubboProviderApplication.class
+org\example\dubbo\provider\service\DemoServiceImpl.class
